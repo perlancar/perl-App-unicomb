@@ -427,8 +427,8 @@ Examples:
 This utility is a slight convenience for printing Unicode character(s) each with
 zero or more combining characters.
 
-To print a character with another combining character, you can: 1) look up the
-combining character using L<uni> from L<App::Uni>, e.g.:
+To print a character with another combining character, you can either look up
+the combining character using L<uni> from L<App::Uni>, e.g.:
 
  % uni combining | grep -i over
  % perl -CO -E'say "x\x{0305}"'
